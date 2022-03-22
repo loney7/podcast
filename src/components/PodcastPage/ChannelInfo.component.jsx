@@ -15,7 +15,7 @@ class ChannelInfo extends Component {
 
     const podcastImage = podcasts
       .filter(p => p.name === title)[0]
-      .img.replace(/100x100/g, '30x30')
+      .img.replace(/200x200/g, '30X30')
 
     return (
       <div className={`ChannelInfo ${theme}`}>

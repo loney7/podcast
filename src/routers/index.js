@@ -13,8 +13,8 @@ import HomePage from '../pages/Home'
 import NotFound from '../pages/NotFound'
 import SettingsPage from '../pages/Settings'
 import PodcastPage from '../pages/PodcastPage'
-import BookmarkedPage from '../pages/Bookmarked'
 import NowPlayingPage from '../pages/NowPlaying'
+import Following from '../pages/Bookmarked'
 
 const AppRouter = ({ theme }) => (
   <Router>
@@ -30,7 +30,7 @@ const AppRouter = ({ theme }) => (
           <Route path="/" exact component={HomePage} />
           <Route path="/settings" exact component={SettingsPage} />
           <Route path="/nowplaying" exact component={NowPlayingPage} />
-          <Route path="/bookmarked" exact component={BookmarkedPage} />
+          <Route path="/following" exact component={Following} />
           <Route path="/podcast/:podcast" exact component={PodcastPage} />
           <Route component={NotFound} />
         </Switch>

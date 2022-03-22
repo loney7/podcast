@@ -3,7 +3,7 @@ import { NavLink as Link } from 'react-router-dom'
 import { connect } from 'react-redux'
 
 // Images
-import Logo from '../images/devcasts-logo-slant.png'
+import Logo from '../images/microsoft.png'
 
 // Styles
 import '../css/Sidebar.styles.css'
@@ -41,9 +41,9 @@ class Sidebar extends Component {
               </Link>
             </li>
             <li className="sidebar-link">
-              <Link to="/bookmarked" activeClassName="sidebar-active" exact>
-                <i className="fas fa-bookmark" />
-                <h4>Bookmarked</h4>
+              <Link to="/following" activeClassName="sidebar-active" exact>
+                <i className="fas fa-user-plus" />
+                <h4>Following</h4>
               </Link>
             </li>
             <li className="sidebar-link settings">

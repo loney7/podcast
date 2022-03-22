@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class BookmarkedPage extends Component {
+class Following extends Component {
   render() {
     return (
       <div className='middle'>
@@ -10,4 +10,4 @@ class BookmarkedPage extends Component {
   }
 }
 
-export default BookmarkedPage
+export default Following

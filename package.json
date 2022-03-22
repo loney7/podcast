@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "homepage": "https://devcasts.netlify.app",
   "devDependencies": {
     "autoprefixer": "^9.5.1",
     "babel-core": "^6.26.3",

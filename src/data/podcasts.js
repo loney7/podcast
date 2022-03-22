@@ -1,4 +1,15 @@
+import azureSecurity from '../images/azure_security.jpeg'
+import kevin from '../images/kevin.png'
+import hanselman from '../images/hanselman.jpeg'
+
+
+
 export const categories = [
+  {
+    category: 'Microsoft',
+    display: 'Microsoft',
+    subtitle: 'For all the Microsofties!'
+  },
   {
     category: 'general',
     display: 'General',
@@ -18,11 +29,22 @@ export const categories = [
 
 export const podcasts = [
   {
-    category: 'javascript',
-    name: 'Syntax - Tasty Web Development Treats',
-    link: 'https://feed.syntax.fm/rss',
-    img:
-      'https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/60/4e/d6/604ed6ba-6a5a-5faa-edf5-189a290f3aa3/source/100x100bb.jpg'
+    category: 'Microsoft',
+    name: 'The Azure Security Podcast',
+    link: 'https://media.rss.com/azsecpodcast/feed.xml',
+    img: azureSecurity
+  },
+  {
+    category: 'Microsoft',
+    name: 'Behind The Tech with Kevin Scott',
+    link: 'https://behindthetech.libsyn.com/rss',
+    img: kevin
+  },
+  {
+    category: 'Microsoft',
+    name: 'This Developer\'s Life',
+    link: 'https://feeds.libsyn.com/23587/rss',
+    img: hanselman
   },
   {
     category: 'general',

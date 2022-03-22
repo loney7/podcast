@@ -10,7 +10,7 @@ class MobileNav extends Component {
     const location = {
       '/': 'Home',
       '/nowplaying': 'Now Playing',
-      '/bookmarked': 'Bookmarked',
+      '/following': 'Following',
       '/settings': 'Settings'
     }
 
@@ -44,8 +44,8 @@ class MobileNav extends Component {
           <Link to="/nowplaying" activeClassName="active-nav-item">
             <i className="fas fa-headphones-alt MobileNav-icon" />
           </Link>
-          <Link to="/bookmarked" activeClassName="active-nav-item">
-            <i className="fas fa-bookmark MobileNav-icon" />
+          <Link to="/following" activeClassName="active-nav-item">
+            <i className="fas fa-user-plus MobileNav-icon" />
           </Link>
           <Link to="/settings" activeClassName="active-nav-item">
             <i className="fas fa-cog MobileNav-icon" />

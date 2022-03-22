@@ -33,8 +33,8 @@ const PodcastGrid = ({ podcasts }) => {
     >
       <animated.div style={springVisibleOnMount}>
         <ProgressiveImage
-          src={podcast.img.replace(/100x100/g, '360x360')}
-          placeholder={podcast.img.replace(/100x100/g, '30x30')}
+          src={podcast.img.replace(/200X200/g, '480x480')}
+          placeholder={podcast.img.replace(/200X200/g, '60X60')}
         >
           {src => <img src={src} alt="podcast cover" />}
         </ProgressiveImage>
@@ -63,8 +63,8 @@ const PodcastCategories = ({ podcasts }) => {
         >
           <animated.div style={springVisibleOnMount}>
             <ProgressiveImage
-              src={podcast.img.replace(/100x100/g, '360x360')}
-              placeholder={podcast.img.replace(/100x100/g, '30x30')}
+              src={podcast.img.replace(/200X200/g, '480x480')}
+              placeholder={podcast.img.replace(/200X200/g, '60X60')}
             >
               {src => <img src={src} alt="podcast cover" />}
             </ProgressiveImage>
@@ -91,7 +91,7 @@ const PodcastCategories = ({ podcasts }) => {
 }
 
 const HomePage = ({ theme }) => {
-  const [sort, setSort] = useState('grid')
+  const [sort, setSort] = useState('category')
 
   return (
     <div className={`Home ${theme}`}>

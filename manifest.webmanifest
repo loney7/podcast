@@ -1,9 +1,9 @@
 {
-  "name": "devCasts",
-  "short_name": "devCasts",
+  "name": "Microsoft Podcasts",
+  "short_name": "Microsoft Podcasts",
   "icons": [
     {
-      "src": "./icon-192.png",
+      "src": "./microsoft.png",
       "type": "image/png",
       "sizes": "192x192"
     }

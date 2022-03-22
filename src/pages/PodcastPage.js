@@ -19,7 +19,7 @@ class PodcastPage extends Component {
   loadPodcast = () => {
     const name = this.props.match.params.podcast.replace(/_/g, ' ')
     const podcast = podcasts.filter(podcast => podcast.name === name)
-
+    console.log(podcast);
     if (podcast.length > 0) {
       const feedURL = podcast[0].link
       this.props.fetchPodcast(feedURL)
